@@ -18,24 +18,26 @@
    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA.
 */
 
+// 1600x900
+
 /* EDID */
 #define VERSION 1
 #define REVISION 3
 
 /* Display */
-#define CLOCK 161000 /* kHz */
+#define CLOCK 119000 /* kHz */
 #define XPIX 1600
-#define YPIX 1200
-#define XY_RATIO XY_RATIO_4_3
-#define XBLANK 560
-#define YBLANK 42
-#define XOFFSET 104
-#define XPULSE 176
+#define YPIX 900
+#define XY_RATIO XY_RATIO_16_9
+#define XBLANK 528
+#define YBLANK 32
+#define XOFFSET 96
+#define XPULSE 168
 #define YOFFSET (63+1)
 #define YPULSE (63+3)
-#define DPI 72
+#define DPI 96
 #define VFREQ 60 /* Hz */
-#define TIMING_NAME "1600x1200"
+#define TIMING_NAME "1600x900"
 /* No ESTABLISHED_TIMINGx_BITS */
 #define HSYNC_POL 0
 #define VSYNC_POL 1

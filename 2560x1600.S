@@ -1,7 +1,5 @@
 /*
-   1600x1200.S: EDID data set for standard 1600x1200 60 Hz monitor
-
-   Copyright (C) 2013 Carsten Emde <C.Emde@osadl.org>
+   Copyright (C) 2012 Carsten Emde <C.Emde@osadl.org>
 
    This program is free software; you can redistribute it and/or
    modify it under the terms of the GNU General Public License
@@ -18,24 +16,27 @@
    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA.
 */
 
+/* 2560x1600p30hz */
+
 /* EDID */
 #define VERSION 1
 #define REVISION 3
 
 /* Display */
-#define CLOCK 161000 /* kHz */
-#define XPIX 1600
-#define YPIX 1200
-#define XY_RATIO XY_RATIO_4_3
-#define XBLANK 560
-#define YBLANK 42
-#define XOFFSET 104
-#define XPULSE 176
+#define CLOCK 164100 /* kHz */
+#define XPIX 2560
+#define YPIX 1600
+
+#define XY_RATIO XY_RATIO_16_10
+#define XBLANK 800
+#define YBLANK 28
+#define XOFFSET 128
+#define XPULSE 272
 #define YOFFSET (63+1)
 #define YPULSE (63+3)
-#define DPI 72
-#define VFREQ 60 /* Hz */
-#define TIMING_NAME "1600x1200"
+#define DPI 96
+#define VFREQ 30 /* Hz */
+#define TIMING_NAME "2560x1600"
 /* No ESTABLISHED_TIMINGx_BITS */
 #define HSYNC_POL 0
 #define VSYNC_POL 1

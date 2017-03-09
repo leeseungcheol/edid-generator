@@ -9,14 +9,14 @@
 #define XPIX 480
 #define YPIX 800
 
-#define XY_RATIO XY_RATIO_4_3
-#define XBLANK 130
+#define XY_RATIO XY_RATIO_16_9
+#define XBLANK 128
 #define YBLANK 45
-#define XOFFSET 42
+#define XOFFSET 40
 #define XPULSE 48
 #define YOFFSET (63+13)
 #define YPULSE (63+3)
-#define DPI 96
+#define DPI 72
 #define VFREQ 62 /* Hz */
 #define TIMING_NAME "480x800"
 /* No ESTABLISHED_TIMINGx_BITS */

@@ -28,16 +28,16 @@
 #define YPIX 600
 #define XY_RATIO XY_RATIO_16_9
 #define XBLANK 320
-#define YBLANK 38
+#define YBLANK 25
 #define XOFFSET 24
 #define XPULSE 136
-#define YOFFSET (63+3)
-#define YPULSE (63+6)
+#define YOFFSET (63+1)
+#define YPULSE (63+3)
 #define DPI 72
 #define VFREQ 60 /* Hz */
 #define TIMING_NAME "1024x600"
 /* No ESTABLISHED_TIMINGx_BITS */
-#define HSYNC_POL 1 
+#define HSYNC_POL 0
 #define VSYNC_POL 1
 
 #include "edid.S"

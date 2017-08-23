@@ -1,5 +1,5 @@
 /*
-   1920x1080_24hz.S: EDID data set for standard 1920x1080 24 Hz monitor
+   1920x1080_23_976hz.S: EDID data set for standard 1920x1080 23.976 Hz monitor
 */
 
 /* EDID */
@@ -7,7 +7,7 @@
 #define REVISION 3
 
 /* Display */
-#define CLOCK 74250 /* kHz */
+#define CLOCK 74175 /* kHz */
 #define XPIX 1920
 #define YPIX 1080
 #define XY_RATIO XY_RATIO_16_9

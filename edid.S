@@ -91,7 +91,7 @@ revision:	.byte	REVISION	/* EDID revision, usually 3 (for 1.3) */
    Bit 1	Sync on green supported
    Bit 0	VSync pulse must be serrated when somposite or
 		  sync-on-green is used. */
-video_parms:	.byte	0x6d
+video_parms:	.byte	0x80
 
 /* Maximum horizontal image size, in centimetres
    (max 292 cm/115 in at 16:9 aspect ratio) */

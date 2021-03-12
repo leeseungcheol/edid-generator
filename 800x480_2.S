@@ -12,7 +12,7 @@
 #define REVISION 3
 
 /* Display */
-#define CLOCK 33900 /* kHz */
+#define CLOCK 36000 /* kHz */
 #define XPIX 800
 #define YPIX 480
 

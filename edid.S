@@ -60,7 +60,7 @@
 header:		.byte	0x00,0xff,0xff,0xff,0xff,0xff,0xff,0x00
 
 # mfg_id:		.word	swap16(mfgname2id(MFG_LNX1, MFG_LNX2, MFG_LNX3))
-mfg_id:		.word	swap16(mfgname2id('H', 'K', 'L'))
+mfg_id:		.hword	swap16(mfgname2id('H', 'K', 'L'))
 
 prod_code:	.hword	0
 
